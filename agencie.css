@@ -1,0 +1,73 @@
+.group {
+  display: flex;
+  flex-wrap: wrap;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  gap: 30px;
+  justify-content: center;
+}
+.group > .astronaut-card {
+  min-height: 500px;
+  min-width: 350px;
+}
+.profile-picture {
+  width: 100%;
+  height: auto;
+  border-radius: 0;
+}
+.alt {
+  padding: 30px;
+  font-weight: 700;
+  font-size: 2rem;
+}
+.agency-box {
+  margin-top: 20px;
+  border-top: 1px solid gray;
+  padding: 30px;
+}
+.agency-box > p {
+  padding: 3px;
+}
+.search {
+  justify-content: center;
+  display: flex;
+  margin-bottom: auto;
+  width: 100%;
+  padding: 30px;
+  gap: 5px;
+}
+.search button {
+  padding: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+  width: 80px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 21%,
+    rgb(11, 13, 30) 30%,
+    rgb(19, 21, 57) 44%,
+    rgb(20, 22, 59) 54%,
+    rgb(11, 13, 32) 74%,
+    rgba(0, 0, 0, 1) 84%
+  );
+  justify-content: center;
+  min-height: 100vh;
+}
+#searchInput {
+  border-radius: 20px;
+  width: 300px;
+  height: 40px;
+  border: 1px solid white;
+  padding: 10px;
+  background-color: transparent;
+  color: white;
+}

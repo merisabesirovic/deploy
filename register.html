@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <link href="./welcome.css" rel="stylesheet" type="text/css" />
+    <link href="./login.css" rel="stylesheet" type="text/css" />
+    <script
+      src="./Header.js"
+      type="text/javascript"
+      defer
+    ></script>
+    <script
+      src="./Register.js"
+      type="text/javascript"
+      defer
+    ></script>
+  </head>
+  <body>
+    <header-component></header-component>
+    <div class="container">
+        <div class="box">
+      <p class="big-text">Create new account <br> and launch with us!</p>
+      <form class="form">
+        <div>
+        <label for="email">Email</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Enter your email"
+          required
+        />
+    </div>
+    <div>
+        <label for="password">Password</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Enter your password"
+          required
+        />
+    </div>
+        <div class="btn-group">
+        <button class="button-1" type="submit" onclick="registerUser()">Create account</button>
+        <button class="button-2"><a href="./index.html" class="link2">Cancel</button>
+        </div>
+      </form>
+    </div>
+    </div>
+  </body>
+</html>
